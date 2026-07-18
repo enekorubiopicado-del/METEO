@@ -34,6 +34,7 @@
     "plugins": [
       "expo-notifications"
     ],
+    "owner": "humedads-team",
     "extra": {
       "eas": {
         "projectId": "3175c7d5-284d-4224-88c8-0e1e45791902"
