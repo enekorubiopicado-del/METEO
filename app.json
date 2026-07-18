@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "laudioberoa",
+    "name": "Laudioberoa",
     "slug": "laudioberoa",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -10,35 +10,18 @@
       "resizeMode": "contain",
       "backgroundColor": "#0f0f12"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.meteollodio.app"
-    },
     "android": {
+      "package": "eus.laudioberoa.meteo",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#0f0f12"
-      },
-      "package": "com.meteollodio.app",
-      "permissions": [
-        "NOTIFICATIONS",
-        "VIBRATE"
-      ]
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
-    "plugins": [
-      "expo-notifications"
-    ],
-    "owner": "humedads-team",
-    "extra": {
-      "eas": {
-        "projectId": "3175c7d5-284d-4224-88c8-0e1e45791902"
       }
-    }
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
   }
 }
