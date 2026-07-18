@@ -22,6 +22,17 @@
     },
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "sdkVersion": "52.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+
+    "extra": {
+      "eas": {
+        "projectId": "AQUÍ_TU_PROJECT_ID"
+      }
+    }
   }
 }
