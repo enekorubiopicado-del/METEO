@@ -11,7 +11,7 @@ export default function AemetScreen() {
   const [forecast, setForecast] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  const API_KEY = "TU_API_KEY_AEMET";
+  const API_KEY = "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbmVrb3J1QGhvdG1haWwuY29tIiwianRpIjoiMTFkMzFjOTctMmMzZC00YmEwLWE0ZmUtNmI4YTRmOWZlZjU3IiwiZXhwIjoxNzkzMDIyMjkzLCJpc3MiOiJBRU1FVCIsImlhdCI6MTc4NDM4MjI5MywidXNlcklkIjoiMTFkMzFjOTctMmMzZC00YmEwLWE0ZmUtNmI4YTRmOWZlZjU3Iiwicm9sZSI6IiJ9.8DLWG1n-erB40cROwUa2v-ISedx38bAqMUhdZnlvkhw";
   const AEMET_URL =
     "https://opendata.aemet.es/opendata/api/prediccion/especifica/municipio/diaria/01032/?api_key=" +
     API_KEY;
