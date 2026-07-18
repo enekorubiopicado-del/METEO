@@ -23,8 +23,7 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "sdkVersion": "52.0.0",
-    "platforms": [
+     "platforms": [
       "ios",
       "android"
     ],
